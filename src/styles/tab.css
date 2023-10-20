@@ -1,0 +1,26 @@
+```css
+/* Tab layout */
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+/* Active tab styling */
+.tab.active {
+    background-color: #F1F1F1;
+}
+
+/* Tab content */
+.tab-content {
+    display: none;
+}
+
+/* Show tab content when tab is active */
+.tab.active .tab-content {
+    display: block;
+}
+```

@@ -1,0 +1,27 @@
+```css
+/* Sidebar layout */
+.sidebar {
+    width: 20%;
+    height: 100%;
+    border-left: 2px solid #000000;
+    overflow-y: auto;
+    resize: horizontal;
+}
+
+/* Navigation tabs in sidebar */
+.sidebar .tab {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+/* Active tab in sidebar */
+.sidebar .tab.active {
+    background-color: #F1F1F1;
+}
+
+/* Content under each tab */
+.sidebar .tab-content {
+    padding: 10px;
+}
+```
